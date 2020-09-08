@@ -14,7 +14,7 @@ const cliParser = require('argument-vector')()
 const findYarnWorkspaceRoot = require('find-yarn-workspace-root')
 const { debug } = require('console')
 
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 
 /**
  * A small utility for checking when an URL responds, kind of
